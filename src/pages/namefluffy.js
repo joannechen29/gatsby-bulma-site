@@ -9,7 +9,7 @@ import wireThree from '../../public/images/name/wireThree.png'
 import wireFour from '../../public/images/name/wireFour.png'
 
 import wireSecond from '../../public/images/name/wireSecond.png'
-import Final from '../../public/images/name/Final.png'
+import Final from '../../public/images/name/final.png'
 
 
 
