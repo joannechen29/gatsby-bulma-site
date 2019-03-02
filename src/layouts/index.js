@@ -5,6 +5,11 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 import './index.scss'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
+
+
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
@@ -21,6 +26,35 @@ const Layout = ({ children, data }) => (
         {children()}
       </div>
     </section>
+
+    <footer className="footer has-background-white ">
+    
+  <div className="content has-text-centered">
+
+  
+    <p className="has-text-centered ">
+    Copyright © 2019 by Joanne Chen
+    </p>
+   
+    <span className="icon is-large fa-lg" >
+      <a href="https://www.linkedin.com/in/yenchenchen/">
+      <i className="fab fa-2x  fa-linkedin"></i>
+      </a>
+    </span>
+
+    <span className="icon is-large fa-lg ">
+      <a href="mailto:joanne29@bu.edu">
+      <i className="fas fa-2x fa-envelope "></i> 
+      </a>
+    </span>
+   
+
+  
+
+  </div>
+      
+  
+    </footer>
   </div>
 )
 
@@ -29,6 +63,7 @@ Layout.propTypes = {
 }
 
 export default Layout
+
 
 export const query = graphql`
   query SiteTitleQuery {
