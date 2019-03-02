@@ -16,7 +16,7 @@ import dailySummary from '../../public/images/vincitable/final/dailySummary.png'
 import filter from '../../public/images/vincitable/final/dailysumfilter.png'
 import currentOperation from '../../public/images/vincitable/final/currentOperation.png'
 import available from '../../public/images/vincitable/final/available.png'
-import toggle from '../../public/images/vincitable/final/toggle.png'
+import toggle from '../../public/images/vincitable/final/toggleOne.png'
 import list from '../../public/images/vincitable/final/list.png'
 import country from '../../public/images/vincitable/final/country.png'
 
