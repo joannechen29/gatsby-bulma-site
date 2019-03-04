@@ -9,11 +9,11 @@ const Header = ({ siteTitle }) => (
 
   <nav className="navbar" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
-      <a>   
+    
       <Link to="/">
         <img src={logo} alt="Logo" className="logo" />
       </Link>
-      </a> 
+    
   
     
     <a
