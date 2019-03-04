@@ -43,18 +43,18 @@ const Header = ({ siteTitle }) => (
 
     <div className="navbar-end">
      
-<a className="navbar-item  is-uppercase ">
+<a className="  is-uppercase ">
           <Link
-           className="has-text-dark "
+           className="navbar-item has-text-dark "
             to="/"
             replace
           >
             Work
           </Link>
         </a>
-        <a className="navbar-item  is-uppercase ">
+        <a className=" is-uppercase ">
           <Link
-            className="has-text-dark   "
+            className="navbar-item has-text-dark   "
             to="/about"
             replace
           >
