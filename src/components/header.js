@@ -36,31 +36,28 @@ const Header = ({ siteTitle }) => (
   </div>
 
   <div id="navbarBasicExample" className="navbar-menu">
-    <div className="navbar-start">
-     
-
-    </div>
+  
 
     <div className="navbar-end">
      
-<a className="  is-uppercase ">
+
           <Link
-           className="navbar-item has-text-dark "
+           className="navbar-item has-text-dark is-uppercase "
             to="/"
             replace
           >
             Work
           </Link>
-        </a>
-        <a className=" is-uppercase ">
+   
+     
           <Link
-            className="navbar-item has-text-dark   "
+            className="navbar-item has-text-dark  is-uppercase  "
             to="/about"
             replace
           >
             About
           </Link>
-        </a>
+        
 
 
     </div>
