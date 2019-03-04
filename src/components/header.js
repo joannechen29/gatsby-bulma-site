@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => (
     </div>
 
     <div className="navbar-end">
-      <div className="navbar-item">
+     
 <a className="navbar-item  is-uppercase has-text-dark">
           <Link
            className="has-text-dark navbar-item "
@@ -62,7 +62,7 @@ const Header = ({ siteTitle }) => (
           </Link>
         </a>
 
-     </div>
+
     </div>
   </div>
 </nav>
