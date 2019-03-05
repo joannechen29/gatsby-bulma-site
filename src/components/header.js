@@ -44,7 +44,7 @@ const Header = ({ siteTitle }) => (
           
 
     <div className="navbar-item has-dropdown is-hoverable">
-    <a className="navbar-item">
+   
   <Link
            className=" navbar-link is-arrowless has-text-dark  is-uppercase  "
             to="/"
@@ -52,7 +52,7 @@ const Header = ({ siteTitle }) => (
           >
             Work
           </Link>
-          </a>
+       
   <div className="navbar-dropdown">
     <a className="navbar-item">
     <Link
