@@ -8,12 +8,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Header = ({ siteTitle }) => (
 
   <nav className="navbar" role="navigation" aria-label="main navigation">
+   
+    
   <div className="navbar-brand">
     
-      <Link to="/">
+  <Link to="/"
+            replace>
         <img src={logo} alt="Logo" className="logo" />
       </Link>
-    
   
     
     <a
