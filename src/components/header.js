@@ -43,56 +43,13 @@ const Header = ({ siteTitle }) => (
     <div className="navbar-end">
           
 
-    <div className="navbar-item has-dropdown is-hoverable">
-   
-  <Link
-           className=" navbar-link is-arrowless has-text-dark  is-uppercase  "
+          <Link
+           className="navbar-item has-text-dark is-uppercase "
             to="/"
             replace
           >
             Work
           </Link>
-       
-  <div className="navbar-dropdown">
-    <a className="navbar-item">
-    <Link
-          className="has-text-grey"
-            to="/greenroom"
-            replace
-          >
-            Greenroom
-          </Link>
-    </a>
-    <a className="navbar-item">
-    <Link
-           className="has-text-grey"
-            to="/vincitable"
-            replace
-          >
-            Vincitable
-          </Link>
-    </a>
-    <a className="navbar-item">
-    <Link
-           className="has-text-grey"
-            to="/levooya"
-            replace
-          >
-            Levooya
-          </Link>
-    </a>
-    <a className="navbar-item">
-    <Link
-           className="has-text-grey"
-            to="/namefluffy"
-            replace
-          >
-            Name my fluffy friend
-          </Link>
-    </a>
-    
-  </div>
-</div>
    
      
           <Link
