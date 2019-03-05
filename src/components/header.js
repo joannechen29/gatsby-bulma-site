@@ -44,15 +44,15 @@ const Header = ({ siteTitle }) => (
           
 
     <div className="navbar-item has-dropdown is-hoverable">
-  <a className="navbar-link is-arrowless">
+ 
   <Link
-           className="navbar-item has-text-dark  is-uppercase  "
+           className="navbar-item navbar-link is-arrowless has-text-dark  is-uppercase  "
             to="/"
             replace
           >
             Work
           </Link>
-  </a>
+
   <div className="navbar-dropdown">
     <a className="navbar-item">
     <Link
