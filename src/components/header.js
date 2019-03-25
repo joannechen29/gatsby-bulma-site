@@ -42,23 +42,23 @@ const Header = ({ siteTitle }) => (
 
     <div className="navbar-end">
           
+          <div >
+            <Link
+              className="navbar-item has-text-dark is-uppercase "
+              to="/"
+              replace
+            >
+              Work
+            </Link>
+          </div>
 
-          <Link
-           className="navbar-item has-text-dark is-uppercase "
-            to="/"
-            replace
-          >
-            Work
-          </Link>
-   
-     
-          <Link
-            className="navbar-item has-text-dark  is-uppercase  "
-            to="/about"
-            replace
-          >
-            About
-          </Link>
+          <div >
+            <Link
+            className="navbar-item has-text-dark is-uppercase "
+             to="/about/" replace >
+              About
+            </Link>
+          </div>
         
 
 

@@ -51,19 +51,19 @@ const VinciTable = () => (
       <div className="columns is-centered box has-background-light">
         <div className="column is-one-quarter  ">
           <h1 className="subtitle is-6  has-text-centered is-uppercase">Client Profile</h1>
-          <img src={lowOne} alt="low1" />
+          <img src={lowOne} alt="Client Profile" />
          
         </div>
 
         <div className="column is-one-quarter">
           <h1 className="subtitle is-6  has-text-centered is-uppercase">Booking Reports</h1>
-          <img src={lowTwo} alt="low2" />
+          <img src={lowTwo} alt="Booking Reports" />
          
         </div>
 
         <div className="column is-one-quarter">
           <h1 className="subtitle is-6  has-text-centered is-uppercase">Log In</h1>
-          <img src={lowThree} alt="low3" />
+          <img src={lowThree} alt="Log In" />
           
         </div>
 
@@ -80,20 +80,21 @@ const VinciTable = () => (
       <div className=" box has-background-light "> 
       <div className="columns is-centered">
         <div className="column is-one-quarter  ">
-          <h6 className="subtitle is-6  has-text-centered is-uppercase">Client Profile</h6>
-          <img src={secOne} alt="sec1" />
+          <h6 className="subtitle is-6  has-text-centered is-uppercase">Daily Summary</h6>
+          <img src={secTwo} alt="Daily Summary" />
          
         </div>
 
         <div className="column is-one-quarter">
           <h6 className="subtitle is-6  has-text-centered is-uppercase">Booking Reports</h6>
-          <img src={secTwo} alt="sec2" />
+         
+          <img src={secOne} alt="Booking Reports" />
          
         </div>
 
         <div className="column is-one-quarter">
-          <h6 className="subtitle is-6  has-text-centered is-uppercase">Log In</h6>
-          <img src={secThree} alt="sec3" />
+          <h6 className="subtitle is-6  has-text-centered is-uppercase">Toggle Page</h6>
+          <img src={secThree} alt="Toggle page" />
           
         </div>
 
