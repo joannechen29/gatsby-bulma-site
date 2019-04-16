@@ -5,7 +5,7 @@ import sitemap from '../../public/images/vegan/sitemap.png'
 import persona from '../../public/images/vegan/persona.png'
 import userflow from '../../public/images/vegan/userflow.png'
 
-// import ad from '../../public/images/vegan/ad.png'
+
 import color from '../../public/images/vegan/colorcard.png'
 //app interface
 import home from '../../public/images/vegan/app/home.png'
@@ -35,32 +35,10 @@ import businesscard from '../../public/images/vegan/businesscard.png'
 const Greenroom = () => (
   <div>
 
-
-
-
-
-{/* <div class="tabs is-fullwidth">
-  <ul>
-    <li>
-      <a>
-        <span class="icon"><i class="fas fa-angle-left" aria-hidden="true"></i></span>
-        <span>Left</span>
-      </a>
-    </li>
-  
-    <li>
-      <a>
-        <span>Right</span>
-        <span class="icon"><i class="fas fa-angle-right" aria-hidden="true"></i></span>
-      </a>
-    </li>
-  </ul>
-</div> */}
-
     <div className="box columns has-background-white-bis ">
       <div className="column is-half">
         <h1 className="title is-2 ">Greenroom</h1>
-        <h4 className="subtitle is-3 ">Branding and UI/UX</h4>
+        <h4 className="subtitle is-3 ">Branding and App Design</h4>
         <p className="subtitle is-4">
           Greenroom is a vegan kitchen specializing in healthy "fast-food" that
           is launching at college campuses across the United States. Greenroom

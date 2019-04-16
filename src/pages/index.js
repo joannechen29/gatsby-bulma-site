@@ -36,7 +36,7 @@ const IndexPage = () => (
           <img src={levooya} alt="levooya" />
           </Link>
             <p className="title">Levooya</p>
-            <p className="subtitle">UI/UX App Redesign</p>
+            <p className="subtitle">UX App Redesign</p>
           </article>
         </div>
         <div className="tile is-parent">
@@ -45,7 +45,7 @@ const IndexPage = () => (
           <img src={Vincitable} alt="vincitable" />
           </Link>
             <p className="title">VinciTable</p>
-            <p className="subtitle">App Design and Development</p>
+            <p className="subtitle">UI/UX App Design and Development</p>
           </article>
         </div>
         </div>
@@ -56,7 +56,7 @@ const IndexPage = () => (
           <img src={name} alt="namefluffy" />
           </Link>
             <p className="title">Name Your Fluffy Friend</p>
-            <p className="subtitle">Web Design and Development</p>
+            <p className="subtitle">UI/UX Web Design and Development</p>
           </article>
         </div>
 

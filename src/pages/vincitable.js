@@ -27,9 +27,9 @@ const VinciTable = () => (
      <div className="box columns has-background-white-bis">
       <div className="column is-half">
         <h1 className="title is-2 ">VinciTables</h1>
-        <h4 className="subtitle is-3 ">UI/UX App deisgn and Development</h4>
+        <h4 className="subtitle is-3 ">UI/UX App Design and Development</h4>
         <p className="subtitle is-4">
-        Vincitables is a restaurant management app that allows the manager to manage the restaurant through the detail report by tracking the customer’s experience. In addition, Vincitables provides instant daily report by integrating with the POS system and reservation system.
+        Vincitables is a restaurant management app that allows the manager to manage the restaurant through detail reports by tracking the customer’s experience. In addition, Vincitable provides instant daily report by integrating with the POS system and reservation system.
         </p>
       </div>
       <div className="column is-half">
@@ -41,7 +41,8 @@ const VinciTable = () => (
       <section >
         <h2 className="title is-4">Task</h2>
         <p>
-          My task is to design and develop the app through a UX perspective. The <a href="https://www.vincitables.com/en/">website version </a>has already developed and being used by several hospitality group in Portugal. The goal is to develope a mobile app that could be use on the phone that allows the managers to keep track of the managemnet report even they are not in site.
+          I was tasked with designing and developing a user-centered app to aid managers within hospitality groups.
+          Vincitable is an exisiting <a href="https://www.vincitables.com/en/">website</a> that is currently being used by several hospitality groups. The goal is to develope a mobile app that managers can use to keep track of the managemnet reports in a more organized manner from wherever they are.
           I used Sketch to design the wireframe and then developed the app by using HTML framework Framework7 with jQuery AJAX and CSS for styling.
         </p>
       </section>
@@ -74,9 +75,9 @@ const VinciTable = () => (
       </section>
       <section>
       <h2 className="title is-4">Secondary wireframes</h2>
-      <aside>
+     
       <p>Based on the web app, I decided to choose some important functionalities to apply on the mobile app.</p>
-      </aside>
+     
       <div className=" box has-background-light "> 
       <div className="columns is-centered">
         <div className="column is-one-quarter  ">
@@ -107,7 +108,8 @@ const VinciTable = () => (
 
       <section>
       <h2 className="title is-4">Final wireframes</h2>
-      <aside>
+  
+      <div className="part">
       <h2 className="subtitle is-5 ">Client Feedbacks:</h2>
 
       <ul>
@@ -126,7 +128,7 @@ const VinciTable = () => (
        The managers can go through different pages from the hamburger menu. In the toggle page, I moved the restuarant options to filter since it will be more easily acesss and filter all the needs at the same time.
 
       </p>
-      </aside>
+      </div>
       
       <div className=" box has-background-light "> 
       <div className="columns is-centered ">

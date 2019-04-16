@@ -26,7 +26,7 @@ const Levooya = () => (
     <div className="box columns has-background-white-bis ">
       <div className="column is-half">
         <h1 className="title is-2 ">Levooya</h1>
-        <h4 className="subtitle is-3 ">UI/UX App Redeisgn</h4>
+        <h4 className="subtitle is-3 ">UX App Redeisgn</h4>
         <p className="subtitle is-4">
         LeVooya, which name is derived from the concept of “Voyage”, is a platform that allows people to buy and sell products from abroad. The two main customers in the app are the travelers and the buyers. Travelers love to buy products from abroad, and this app brings the ease of taking products from abroad back home by matching their needs and wants. Buyers will also be able to post requests for products they have been looking for, and travelers can accept the request and purchase them for the buyers.
         </p>

@@ -20,7 +20,7 @@ const nameFluffy =() =>(
     <div className="box columns has-background-white-bis">      
       <div className="column is-half">
         <h1 className="title is-2 ">Name my Fluffy Friend</h1>
-        <h4 className="subtitle is-3 ">UI/UX Website and Development</h4>
+        <h4 className="subtitle is-3 ">UI/UX Web Design and Development</h4>
         <p className="subtitle is-4">
          Namemyfluffyfriend is a website that allows user to generate their pet name according to the pet's habits, personality, sex and color.
          My goal is to develop a fun and interactive website and overcome the frustation of naming your beloved fluffy friend.
