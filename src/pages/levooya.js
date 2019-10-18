@@ -18,6 +18,10 @@ import profile from '../../public/images/levooya/app/profile.png'
 import requestcountry from '../../public/images/levooya/app/requestcountry.png'
 import requestcountryfilter from '../../public/images/levooya/app/requestcountryfilter.png'
 
+import MockOne from '../../public/images/levooya/app/LevooyaMockOne.png'
+import MockTwo from '../../public/images/levooya/app/LevooyaMockTwo.png'
+import MockThree from '../../public/images/levooya/app/LevooyaMockThree.png'
+
 
 
 const Levooya = () => (
@@ -113,13 +117,10 @@ const Levooya = () => (
         </p>
 
         <div className="part ">
-           <h4 className="subtitle is-6  has-text-centered is-uppercase ">restaurant search page/ sort by</h4>
+           <h4 className="subtitle is-6  has-text-centered is-uppercase ">home page/ sort by page</h4>
           <div className="columns is-centered ">
-            <div className="column is-one-quarter  ">
-              <img  className="is-mobile" src={home} alt="restaurants page" />
-            </div>
-            <div className="column is-one-quarter  ">
-              <img className="is-mobile" src={filter} alt="sort by page" />
+            <div className="column is-half  ">
+              <img  className="is-mobile" src={MockOne} alt="home page" />
             </div>
             <div className="column is-half content inline-block">
             <ul>
@@ -134,12 +135,9 @@ const Levooya = () => (
         <div className="part">
            <h4 className="subtitle is-6  has-text-centered is-uppercase ">Product page</h4>
           <div className="columns is-centered ">
-                  <div className="column is-one-quarter ">
-                    <img src={product} alt="restaurants page" />
-                  </div>
-                  <div className="column is-one-quarter">
-                    <img src={profile} alt="sort by page" />
-                  </div>
+            <div className="column is-half  ">
+              <img  className="is-mobile" src={MockTwo} alt="home page" />
+            </div>
                   
             <div className="column is-half content ">
             <ul>
@@ -156,11 +154,8 @@ const Levooya = () => (
         <div className="part">
            <h4 className="subtitle is-6  has-text-centered is-uppercase ">request page</h4>
           <div className="columns is-centered ">
-            <div className="column is-one-quarter ">
-              <img src={requestcountry} alt="restaurants page" />
-            </div>
-            <div className="column is-one-quarter">
-              <img src={requestcountryfilter} alt="sort by page" />
+             <div className="column is-half  ">
+              <img  className="is-mobile" src={MockThree} alt="home page" />
             </div>
             <div className="column is-half content">
               <ul>

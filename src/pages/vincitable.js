@@ -20,6 +20,8 @@ import toggle from '../../public/images/vincitable/final/toggleOne.png'
 import list from '../../public/images/vincitable/final/list.png'
 import country from '../../public/images/vincitable/final/country.png'
 
+import MockUp from '../../public/images/vincitable/vincitableMockup.png'
+
 
 
 const VinciTable = () => (
@@ -108,6 +110,10 @@ const VinciTable = () => (
 
       <section>
       <h2 className="title is-4">Final wireframes</h2>
+      <div className=" is-centered  "> 
+      <img src={MockUp} alt="mockUp" /> 
+      </div>
+      
   
       <div className="part">
       <h2 className="subtitle is-5 ">Client Feedbacks:</h2>
@@ -129,7 +135,7 @@ const VinciTable = () => (
 
       </p>
       </div>
-      
+   
       <div className=" box has-background-light "> 
       <div className="columns is-centered ">
 
