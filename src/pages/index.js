@@ -7,18 +7,21 @@ import name from "../../public/images/name.png"
 
 
 
+
 const IndexPage = () => (
   <div className="container is-mobile is-fluid">
-    <h1 className="title">
-   
-    </h1>
-    <h2 className="subtitle">
-    
-    </h2>
-    <p className="mt-1">
-     
-    </p>
-   
+
+    <div className="columns is-mobile" >
+      <div className="column is-three-fifths is-offset-one-fifth" >
+      <h1 className="title">
+        Hi, I am Joanne. 
+        </h1>
+        <h2 className="subtitle">
+        I am passionate about creating an <strong>inclusive and accessible user experience</strong> that makes an impact on the world. 
+        </h2>
+      </div>
+    </div>
+   <section>
     <div className="tile is-ancestor has-text-centered">
         <div className="tile is-parent">
           <article className="tile is-child box">
@@ -48,7 +51,8 @@ const IndexPage = () => (
             <p className="subtitle">UI/UX App Design and Development</p>
           </article>
         </div>
-        </div>
+      </div>
+      
         <div className="tile is-ancestor has-text-centered">
         <div className="tile is-parent">
           <article className="tile is-child box">
@@ -62,7 +66,7 @@ const IndexPage = () => (
 
       </div> 
       
-
+      </section>
      
   </div>
  

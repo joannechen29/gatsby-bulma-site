@@ -99,6 +99,12 @@ const nameFluffy =() =>(
 
 
     </div>
+    <nav className="pagination" role="navigation" aria-label="pagination">
+      <Link to="/greenroom/"><a className="pagination-previous">Previous Project: Greenroom</a></Link>
+      <Link to="/vincitable/"><a className="pagination-next">Next Project: Vincitables</a></Link>
+     </nav>
+
+
 
 
 </div>

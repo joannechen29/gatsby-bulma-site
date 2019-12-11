@@ -31,7 +31,7 @@ const VinciTable = () => (
         <h1 className="title is-2 ">VinciTables</h1>
         <h4 className="subtitle is-3 ">UI/UX App Design and Development</h4>
         <p className="subtitle is-4">
-        Vincitables is a restaurant management app that allows the manager to manage the restaurant through detail reports by tracking the customer’s experience. In addition, Vincitable provides instant daily report by integrating with the POS system and reservation system.
+        Vincitables is a restaurant management app that allows the manager to manage the restaurant through detail reports by tracking the customer’s experience. In addition, Vincitables provides instant daily report by integrating with the POS system and reservation system.
         </p>
       </div>
       <div className="column is-half">
@@ -207,6 +207,10 @@ const VinciTable = () => (
 
 
   </div>
+  <nav className="pagination" role="navigation" aria-label="pagination">
+      <Link to="/levooya/"><a className="pagination-previous">Previous Project: Levooya</a></Link>
+      <Link to="/namefluffy/"><a className="pagination-next">Next Project: Name My Fluffy Friend</a></Link>
+     </nav>
   </div>
 )
 

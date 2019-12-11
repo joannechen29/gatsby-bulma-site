@@ -42,13 +42,20 @@ const Levooya = () => (
 
 
     <div className="container  content">
+
+    <section >
+        <h2 className="title is-4">The problem</h2>
+        <p>
+        Customer wants a more transparent platform without concerning buying a counterfeit profuct
+        </p>
+    </section>
     <section>
           <h2 className="title is-4 ">Goals</h2>
       <div className="columns boxes ">
           <div className="column   ">
           <div className="box">
             <h1 className="subtitle is-5 ">Brand Goals</h1>
-            <p>
+            <p className="subtitle is-5 ">
             Allow users to buy popular oversea products and allow the travelers to earn money while traveling
             </p>
             </div>
@@ -83,9 +90,9 @@ const Levooya = () => (
         I have conducted user testings with 5 users and have found out three major problems:
         </p>
         <ul>
-              <li> Easy to navigate platform</li>
-              <li>A trustworthy platform</li>
-              <li>Reliable source of reviews</li>
+              <li> Limited time: three days for buyer to send out the products</li>
+              <li>Mystery link and Unclear information</li>
+              <li>Unhelpful page without an obvious route out</li>
           </ul>
       </section>
       <section className="content">
@@ -177,6 +184,10 @@ const Levooya = () => (
          </div>
 
     </div>
+    <nav className="pagination" role="navigation" aria-label="pagination">
+      <Link to="/greenroom/"><a className="pagination-previous">Previous Project: Greenroom</a></Link>
+      <Link to="/vincitable/"><a className="pagination-next">Next Project: Vincitables</a></Link>
+     </nav>
 
   </div>
 )

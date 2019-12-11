@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 import './index.scss'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 
 

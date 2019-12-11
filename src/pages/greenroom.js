@@ -32,6 +32,10 @@ import businesscard from '../../public/images/vegan/businesscard.png'
 
 
 
+
+
+
+
 const Greenroom = () => (
   <div>
 
@@ -49,12 +53,17 @@ const Greenroom = () => (
         </p>
       </div>
       <div className="column is-half ">
+        <div className="image ">
         <img src={logo} alt="greenroom" />
+        </div>
       </div>
     </div>
 
 
     <div className="container is-fluid ">
+
+    
+
       <section >
         <h2 className="title is-4">Designing the brand</h2>
         <p>
@@ -86,31 +95,38 @@ const Greenroom = () => (
           </ul>
        
       </section>
+ 
      
       <section >
-      <div className="columns  ">
-        <div className="column is-one-third ">
-          <h1 className="title is-4">Persona</h1>
+      
+
+      <div className="columns is-multiline is-centered">
+        <div className="column is-two-fifths">
+   
           <img src={persona} alt="persona" />
           <p>
+          <h3 className="subtitle is-5">Persona</h3>
             Based on the user reserach I have conducted, I have created a
             persona on a projected customer of Greenroom.
           </p>
         </div>
 
-        <div className="column is-one-third ">
-          <h1 className="title is-4">Sitemap</h1>
+        <div className="column is-two-fifths">
+         
           <img src={sitemap} alt="sitemap" />
           <p>
+          <h3 className="subtitle is-5">Sitemap</h3>
+        
             This sitemap gives you a clear understanding of the navigational
             hierarchy.
           </p>
         </div>
 
-        <div className="column is-one-third">
-          <h1 className="title is-4">Userflow</h1>
+        <div className="column is-three-quarters">
+          
           <img src={userflow} alt="userflow" />
           <p>
+          <h3 className="subtitle is-5">Userflow</h3>
             This useflow is simple and smooth. The user can access the
             restuarant page, order page, community page and profile stting page
             after logging in.
@@ -231,6 +247,10 @@ const Greenroom = () => (
 
 
      </div>
+     <nav className="pagination" role="navigation" aria-label="pagination">
+      <Link to="/namefluffy/"><a className="pagination-previous">Previous Project: Name My  Fluffy Friend</a></Link>
+      <Link to="/levooya/"><a className="pagination-next">Next Project: Levooya</a></Link>
+     </nav>
 
 
 
