@@ -25,12 +25,14 @@ import MockUp from '../../public/images/vincitable/vincitableMockup.png'
 
 
 const VinciTable = () => (
-  <div className="content">
+  <div className=" container is-mobile is-fluid">
      <div className="box columns has-background-white-bis">
       <div className="column is-half">
-        <h1 className="title is-2 ">VinciTables</h1>
-        <h4 className="subtitle is-3 ">UI/UX App Design and Development</h4>
-        <p className="subtitle is-4">
+      <p className="title is-2 ">VinciTables</p>
+      <p className="subtitle is-4 ">Restaurant Management Software</p>
+      <p className="is-6 "><strong>UI/UX App Design and Development | Dec 2017 - Jan 2018</strong></p>
+      
+        <p >
         Vincitables is a restaurant management app that allows the manager to manage the restaurant through detail reports by tracking the customer’s experience. In addition, Vincitables provides instant daily report by integrating with the POS system and reservation system.
         </p>
       </div>
@@ -39,7 +41,7 @@ const VinciTable = () => (
       </div>
     </div> 
 
-    <div className="container is-fluid">
+    <div className="">
       <section >
         <h2 className="title is-4">Task</h2>
         <p>
@@ -49,94 +51,95 @@ const VinciTable = () => (
         </p>
       </section>
 
-      <section>
-      <h2 className="title is-4">Initial wireframes</h2>
-      <div className="columns is-centered box has-background-light">
-        <div className="column is-one-quarter  ">
-          <h1 className="subtitle is-6  has-text-centered is-uppercase">Client Profile</h1>
-          <img src={lowOne} alt="Client Profile" />
-         
+      <section className="">
+        <h2 className="title is-4">Initial Wireframes</h2>
+        <div className=" box has-background-light">
+          <div className="columns is-centered">
+            <div className="column is-one-quarter  ">
+              <h1 className="subtitle is-6  has-text-centered is-uppercase">Client Profile</h1>
+              <img src={lowOne} alt="Client Profile" />
+            </div>
+
+            <div className="column is-one-quarter">
+              <h1 className="subtitle is-6  has-text-centered is-uppercase">Booking Reports</h1>
+              <img src={lowTwo} alt="Booking Reports" />
+            </div>
+
+            <div className="column is-one-quarter">
+              <h1 className="subtitle is-6  has-text-centered is-uppercase">Log In</h1>
+              <img src={lowThree} alt="Log In" />
+            </div>
+            </div>
         </div>
-
-        <div className="column is-one-quarter">
-          <h1 className="subtitle is-6  has-text-centered is-uppercase">Booking Reports</h1>
-          <img src={lowTwo} alt="Booking Reports" />
-         
-        </div>
-
-        <div className="column is-one-quarter">
-          <h1 className="subtitle is-6  has-text-centered is-uppercase">Log In</h1>
-          <img src={lowThree} alt="Log In" />
-          
-        </div>
-
-       
-        </div>
-
-
-      </section>
-      <section>
-      <h2 className="title is-4">Secondary wireframes</h2>
-     
-      <p>Based on the web app, I decided to choose some important functionalities to apply on the mobile app.</p>
-     
-      <div className=" box has-background-light "> 
-      <div className="columns is-centered">
-        <div className="column is-one-quarter  ">
-          <h6 className="subtitle is-6  has-text-centered is-uppercase">Daily Summary</h6>
-          <img src={secTwo} alt="Daily Summary" />
-         
-        </div>
-
-        <div className="column is-one-quarter">
-          <h6 className="subtitle is-6  has-text-centered is-uppercase">Booking Reports</h6>
-         
-          <img src={secOne} alt="Booking Reports" />
-         
-        </div>
-
-        <div className="column is-one-quarter">
-          <h6 className="subtitle is-6  has-text-centered is-uppercase">Toggle Page</h6>
-          <img src={secThree} alt="Toggle page" />
-          
-        </div>
-
-       
-        </div>
-        </div>
-
-
       </section>
 
-      <section>
-      <h2 className="title is-4">Final wireframes</h2>
-      <div className=" is-centered  "> 
-      <img src={MockUp} alt="mockUp" /> 
-      </div>
-      
-  
-      <div className="part">
-      <h2 className="subtitle is-5 ">Client Feedbacks:</h2>
+      <section className="">
+        <h2 className="title is-4">Secondary Wireframes</h2>
+        <p>Based on the web app, I decided to choose some important functionalities to apply on the mobile app.</p>
+        <div className=" mt-1 box has-background-light "> 
+          <div className="columns is-centered">
+            <div className="column is-one-quarter  ">
+              <h6 className="subtitle is-6  has-text-centered is-uppercase">Daily Summary</h6>
+              <img src={secTwo} alt="Daily Summary" /> 
+            </div>
 
-      <ul>
+            <div className="column is-one-quarter">
+              <h6 className="subtitle is-6  has-text-centered is-uppercase">Booking Reports</h6>   
+              <img src={secOne} alt="Booking Reports" />
+            </div>
+
+            <div className="column is-one-quarter">
+              <h6 className="subtitle is-6  has-text-centered is-uppercase">Toggle Page</h6>
+              <img src={secThree} alt="Toggle page" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="" >
+        <h2 className="title is-4">Final Wireframes</h2>
+        <div className=" is-centered  "> 
+          <img src={MockUp} alt="mockUp" /> 
+        </div>
+
+
+
+        <div className="content">
+           <h6 className="is-small" >Manager Feedbacks</h6>
+           <p>Here are some of the key points I have learned:</p>
+           <ul>
             <li>The daily summary can be more concise.</li>
+            <li>The restaurant fliter under the toggle menu may be a little confusing and does not really go with the user flow. </li>
+            <li>Combine the date picker and the restaurant filter </li>
+          </ul>
+          </div> 
+          <div className="content">
+          <h6 className="is-small" >How I addressed:</h6>
+          <p>
+          After discussing with the managers and knowing the client's need, I redesigned the app to provide a more clear and transparent report.
+          The clients prefer to have a more concise report after logging in, which is the daily summary page.
+          Through the hamburger menu, the managers can go through different pages.
+          In the toggle page, I moved the restuarant options to filter since it will be more easily acesss and filter all the needs at the same time.
+          </p>
+            </div> 
 
-              <li>The restaurant fliter under the toggle menu may be a little confusing and does not really go with the user flow. </li>
-
-              <li>Combine the date picker and the restaurant filter </li>
-      </ul>
+        {/* <div className=" content part">
+          <h2 className="subtitle is-5 ">Client Feedbacks:</h2>
+          <ul>
+            <li>The daily summary can be more concise.</li>
+            <li>The restaurant fliter under the toggle menu may be a little confusing and does not really go with the user flow. </li>
+            <li>Combine the date picker and the restaurant filter </li>
+          </ul>
       
-      <h2 className="subtitle is-5">How I addressed:</h2>
-      <p>
-      After discussing with the managers and knowing the client's need, I redesigned the app to provide a more clear and transparent report.
-      They prefer to have a more concise report after logging in, which is the daily summary page.
-    
-       The managers can go through different pages from the hamburger menu. In the toggle page, I moved the restuarant options to filter since it will be more easily acesss and filter all the needs at the same time.
-
-      </p>
-      </div>
+          <h2 className="subtitle is-5">How I addressed:</h2>
+          <p>
+          After discussing with the managers and knowing the client's need, I redesigned the app to provide a more clear and transparent report.
+          They prefer to have a more concise report after logging in, which is the daily summary page.
+          The managers can go through different pages from the hamburger menu. In the toggle page, I moved the restuarant options to filter since it will be more easily acesss and filter all the needs at the same time.
+          </p>
+         </div> */}
    
-      <div className=" box has-background-light "> 
+      <div className="  box has-background-light "> 
       <div className="columns is-centered ">
 
        <div className="column is-one-fifth ">
