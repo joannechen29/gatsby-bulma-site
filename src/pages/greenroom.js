@@ -130,7 +130,7 @@ const Greenroom = () => (
               <div className=" column is-6"> 
                 <img src={affinitymap} alt="affinitymap" />
               </div>
-              <div className=" rightbox column is-3"> 
+              <div className="  column is-3"> 
                 <h3 className="subtitle is-5">Affinity Map</h3>
                 <p >
                 From our affinity maping exercise, our team have identified four main groups that we are going to focus on when designing the app.
@@ -138,8 +138,8 @@ const Greenroom = () => (
               </div>
             </div>
 
-            <div className=" columns is-multiline is-centered">
-              <div className="leftbox column is-3"> 
+            <div className=" smallmargin columns is-multiline is-centered">
+              <div className=" column is-3"> 
                 <h3 className="subtitle is-5">Sitemap</h3>
                 <p >
                 To improve usability, I created a sitemap to have a clear understanding of the navigational
@@ -161,7 +161,7 @@ const Greenroom = () => (
                 
                     To understand how the user would navigate the app, I created a userflow to see the complete path that user takes when using the app 
                   </p>
-                  <p className="smallmargin">
+                  <p className="minimargin">
                 
                     This useflow is simple and smooth. The user can access the
                     restuarant page, order page, community page and profile stting page
@@ -179,7 +179,7 @@ const Greenroom = () => (
 
           <div className=" smallmargin columns is-multiline is-centered">
               
-              <div className=" leftbox column is-4"> 
+              <div className="  column is-4"> 
               <h3 className="subtitle is-5">UI style guide</h3>
                 <p >
                 Since the brand is lively and friendly, I decided to go with a soft

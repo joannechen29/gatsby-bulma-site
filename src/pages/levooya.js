@@ -218,16 +218,17 @@ const Levooya = () => (
             </div> 
           </div>
         </div>
-        </section>
-
         <div className="columns is-centered is-mobile">
 
-        <a href="https://itunes.apple.com/tw/app/%E6%A8%82%E9%A3%9B%E4%BA%9E/id1221262097?mt=8">
-        <img src={appstore} alt="appstore" />
-          </a>
-              
-         </div>
+<a href="https://itunes.apple.com/tw/app/%E6%A8%82%E9%A3%9B%E4%BA%9E/id1221262097?mt=8">
+<img src={appstore} alt="appstore" />
+  </a>
+      
+ </div>
 
+        </section>
+
+  
     </div>
     <nav className="pagination" role="navigation" aria-label="pagination">
       <Link to="/greenroom/"><a className="pagination-previous">Previous Project: Greenroom</a></Link>

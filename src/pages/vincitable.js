@@ -30,7 +30,7 @@ const VinciTable = () => (
       <div className="column is-half">
       <p className="title is-2 ">VinciTables</p>
       <p className="subtitle is-4 ">Restaurant Management Software</p>
-      <p className="is-6 "><strong>UI/UX App Design and Development | Dec 2017 - Jan 2018</strong></p>
+      <p className="is-6 "><strong>UX App Design and Development | Dec 2017 - Jan 2018</strong></p>
       
         <p >
         Vincitables is a restaurant management app that allows the manager to manage the restaurant through detail reports by tracking the customer’s experience. In addition, Vincitables provides instant daily report by integrating with the POS system and reservation system.

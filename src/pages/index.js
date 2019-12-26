@@ -28,8 +28,9 @@ const IndexPage = () => (
           <Link to="/greenroom/">
           <img src={greenroom} alt="greenroom"/>
           </Link>
-            <p className="title">Greenroom</p>
-            <p className="subtitle">Branding and App Design</p>
+            <p className="title is-4">Greenroom</p>
+            {/* <p className="subtitle is-6 "> Vegan Delivery Company</p> */}
+            <p className="subtitle is-5">Branding and App Design</p>
 
           </article>
         </div>
@@ -38,8 +39,9 @@ const IndexPage = () => (
           <Link to="/levooya/">
           <img src={levooya} alt="levooya" />
           </Link>
-            <p className="title">Levooya</p>
-            <p className="subtitle">UX App Redesign</p>
+            <p className="title is-4">Levooya</p>
+            {/* <h2 className=" is-5 ">Ecommerce Platform</h2> */}
+            <h3 className=" subtitle is-5">UX App Redesign</h3>
           </article>
         </div>
         <div className="tile is-parent">
@@ -47,8 +49,9 @@ const IndexPage = () => (
           <Link to="/vincitable/">
           <img src={Vincitable} alt="vincitable" />
           </Link>
-            <p className="title">VinciTable</p>
-            <p className="subtitle">UI/UX App Design and Development</p>
+            <p className="title is-4">VinciTable</p>
+            {/* <p className=" is-4 ">Restaurant Management Software</p> */}
+            <p className="subtitle is-5">UX App Design and Development</p>
           </article>
         </div>
       </div>
@@ -59,8 +62,9 @@ const IndexPage = () => (
           <Link to="/namefluffy/">
           <img src={name} alt="namefluffy" />
           </Link>
-            <p className="title">Name Your Fluffy Friend</p>
-            <p className="subtitle">UI/UX Web Design and Development</p>
+            <p className="title is-4">Name Your Fluffy Friend</p>
+            {/* <h2 className=" is-4 ">Pet Name Generator</h2> */}
+            <p className="subtitle is-5">UX Web Design and Development</p>
           </article>
         </div>
 

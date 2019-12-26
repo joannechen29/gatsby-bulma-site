@@ -23,7 +23,7 @@ const nameFluffy =() =>(
 
       <p className="title is-2 ">Name my Fluffy Friend</p>
         <p className="subtitle is-4 ">Pet Name Generator</p>
-        <p className="is-6 "><strong>UI/UX Web Design and Development | Sept 2018 - Dec 2019</strong></p>
+        <p className="is-6 "><strong>UX Web Design and Development | Sept 2018 - Dec 2019</strong></p>
 
 
         <p >
@@ -162,8 +162,8 @@ const nameFluffy =() =>(
 
     </div>
     <nav className="pagination" role="navigation" aria-label="pagination">
-      <Link to="/greenroom/"><a className="pagination-previous">Previous Project: Greenroom</a></Link>
-      <Link to="/vincitable/"><a className="pagination-next">Next Project: Vincitables</a></Link>
+      <Link to="/vincitable/"><a className="pagination-previous">Previous Project: Vincitables</a></Link>
+      <Link to="/greenroom/"><a className="pagination-next">Next Project: Greenroom</a></Link>
      </nav>
 
 
