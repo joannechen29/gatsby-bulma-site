@@ -57,7 +57,7 @@ const Levooya = () => (
           <div className="column   ">
           <div className="box">
             <h1 className="subtitle is-5 ">Brand Goals</h1>
-            <p className="subtitle is-5 ">
+            <p >
             Allow users to buy popular oversea products and allow the travelers to earn money while traveling
             </p>
             </div>
@@ -117,7 +117,7 @@ const Levooya = () => (
       <section >
       {/* <div className="columns "> */}
       <div className=" columns is-multiline is-centered smallmargin ">
-              <div className=" column is-6"> 
+              <div className=" column is-7"> 
               <img src={sitemap} alt="sitemap" />
               </div>
               <div className=" rightbox column is-3"> 
@@ -135,7 +135,7 @@ const Levooya = () => (
           This userfow represents the user as a buyer and a seller. However, the buyer will be the primary focus in this chart.
           </p>
               </div>
-              <div className=" column is-6"> 
+              <div className=" column is-7"> 
               <img src={userflow} alt="userflow" />
               </div>
             </div>
@@ -171,10 +171,10 @@ const Levooya = () => (
         <div className="part ">
            <h4 className="subtitle is-6  has-text-centered is-uppercase ">home page/ sort by page</h4>
           <div className="columns is-centered ">
-            <div className="column is-5  ">
+            <div className="column is-7  ">
               <img  className="is-mobile" src={MockOne} alt="home page" />
             </div>
-            <div className="column is-4 content inline-block">
+            <div className="rightbullet column is-4 content inline-block">
             <ul>
               <li>Added the filter button: allow user to quickly search for the product</li>
               <li>Match between the system and the real work: on the filter page, added the close icon “X”</li>
@@ -187,11 +187,11 @@ const Levooya = () => (
         <div className="part">
            <h4 className="subtitle is-6  has-text-centered is-uppercase ">Product page</h4>
           <div className="columns is-centered ">
-            <div className="column is-5  ">
+            <div className="column is-7  ">
               <img  className="is-mobile" src={MockTwo} alt="home page" />
             </div>
                   
-            <div className="column is-4 content ">
+            <div className=" rightbullet column is-4 content ">
             <ul>
             <li>To create more trust and be more transparent, I moved the rating from the product information sectoin to under the seller’s name since the buyer will want to know if the seller is trustworthy or not.</li>
 
@@ -206,10 +206,10 @@ const Levooya = () => (
         <div className="part">
            <h4 className="subtitle is-6  has-text-centered is-uppercase ">request page</h4>
           <div className="columns is-centered ">
-             <div className="column is-5  ">
+             <div className="column is-7  ">
               <img  className="is-mobile" src={MockThree} alt="home page" />
             </div>
-            <div className="column is-4 content">
+            <div className=" column is-4 content">
               <ul>
                 <li>Shortcut- Sort by country on the request page</li>
 

@@ -30,18 +30,26 @@
 .logo{
 	margin:2em;
 }
+div img{
+	// padding:0;
+}
+div .rightbullet {
+    
+    margin-left: 0;
 
 
+  
+}
 .rightbox{
 
 	margin-left:1.5rem;	
-	margin-right:2rem;
+	//margin-right:2rem;
 	margin-top:2.5rem;
 	padding:2rem;
 }
 
 .leftbox{
-	margin-left:2rem;	
+	//margin-left:2rem;	
 	margin-right:1.5rem;	
 	margin-top:2.5rem;
 	padding:2rem;

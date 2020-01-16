@@ -73,7 +73,7 @@ const nameFluffy =() =>(
           <div className="column is-4 box has-background-light part"> 
             <img src={wireframe} alt="wireframe" />
           </div>
-          <div className=" rightbox column is-5"> 
+          <div className=" rightbox column is-6"> 
             <h3 className="subtitle is-5">First Iteration</h3>
             <p>After testing the first iteration with five people within our targeted audience (college students), we concluded two key points that we would like to improve with the constructive comments and recommendation we have received from our subjects, while knowing that our product is not made for everyone.</p>
           </div>
@@ -118,7 +118,7 @@ const nameFluffy =() =>(
             <h3 className="subtitle is-5">Second Iteration</h3>
             <p>After analyzing the data we have gathered, we applied them to the second iteration.</p>
           </div>
-          <div className="column is-6 box has-background-light part"> 
+          <div className="column is-7 box has-background-light part"> 
             <img src={wireSecond} alt="wireframe" />
           </div>
           
@@ -152,7 +152,7 @@ const nameFluffy =() =>(
 </div>
 <div className="columns is-centered ">
 
-     <div className="column is-half  box has-background-light part">
+     <div className="column is-three-fifths  box has-background-light part">
       <img src={Final} alt="low2" />
       </div>
       </div>
